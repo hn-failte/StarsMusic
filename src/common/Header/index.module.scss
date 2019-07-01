@@ -1,0 +1,43 @@
+.header{
+    height: 2rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background: #2c3e50;
+    header{
+        height: 1rem;
+        line-height: 1rem;
+        padding-left: .35rem;
+        font-size: .3rem;
+        font-family: "黑体";
+        color: #fff;
+        font-weight: bolder;
+        color: #f1c40f;
+        .title-icon{
+            color: #f1c40f;
+        }
+    }
+    nav{
+        height: 1rem;
+        line-height: 1rem;
+        display: flex;
+        box-sizing: border-box;
+        border-bottom: 1px solid #eee;
+        button{
+            color: #333;
+            flex: 1;
+            background: #fff;
+            border: none;
+            outline: none;
+            font-size: .25rem;
+            &.active{
+                color: #f39c12;
+                background: #efefef;
+                border-bottom: .1rem solid #f39c12;
+                box-sizing: border-box;
+            }
+        }
+    }
+}
